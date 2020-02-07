@@ -1,0 +1,42 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.login-main {
+  margin: 79px 52px;
+  justify-content: center;
+  padding-bottom: 44px;
+  flex-grow: 1;
+}
+.login-page {
+  border: 1px solid black;
+  text-align: center;
+  height: 382px;
+}
+
+.register-container {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.mobile-download-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-download-container a img {
+  width: 160px;
+}
+
+.goto-appstore {
+  margin: 10px;
+}
+
+h1 {
+  margin: 25px;
+}
+
+input {
+  width: 70%;
+}

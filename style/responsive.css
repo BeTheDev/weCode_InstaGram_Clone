@@ -1,0 +1,36 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background: #fafafa;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* .box {
+    width: 150px;
+    height: 150px;
+    background: blue;
+  } */
+}
+/* Tablet Styles */
+/* @media only screen and (min-width: 401px) and (min-width: 960px) {
+  body {
+    background: #fafafa;
+  }
+} */
+@media only screen and (min-width: 870px) {
+  body {
+    background: #fafafa;
+  }
+  .login-page {
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background: #fafafa;
+  }
+}
