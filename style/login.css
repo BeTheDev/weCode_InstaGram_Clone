@@ -7,6 +7,11 @@ section {
   justify-content: center;
 }
 
+.only-tablet-desktop-view {
+  display: none;
+  ;
+}
+
 a {
   text-decoration: none;
   font-size: 12px;
@@ -87,7 +92,7 @@ h1 {
 }
 
 .mobile-download-container a img {
-  width: 160px;
+  width: 134px;
 }
 
 .goto-appstore {

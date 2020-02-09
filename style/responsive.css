@@ -20,6 +20,17 @@
     background: #fafafa;
   }
 
+  .only-tablet-desktop-view {
+    display: block;
+    ;
+  }
+
+  .only-tablet-desktop-view img {
+    width: 85%;
+    margin: 83px 0px;
+  }
+
+
   section {
     display: flex;
   }
@@ -32,9 +43,9 @@
   }
 }
 
-/* Desktop Styles */
+/* Desktop Styles
 @media only screen and (min-width: 961px) {
-  body {}
+   {}body
 
 
-}
+} */
