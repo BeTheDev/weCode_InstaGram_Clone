@@ -1,23 +1,89 @@
 * {
-  font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.only-tablet-desktop-view {
+  display: none;
+  ;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
 }
 
 .login-main {
   margin: 79px 52px;
   justify-content: center;
   padding-bottom: 44px;
-  flex-grow: 1;
+
 }
+
 .login-page {
-  border: 1px solid black;
+  border: 1px solid rgba(218, 188, 188, 0.5);
   text-align: center;
-  height: 382px;
+}
+
+input {
+  width: 72%;
+  border: 1px solid;
+  border-radius: 6px;
+  background: #fafafa;
+  padding: 9px 0 7px 8px;
+}
+
+button {
+  width: 75%;
+  border: 1px solid;
+  border-radius: 6px;
+  background: #fafafa;
+  margin: 8px 40px;
+  background: rgba(56, 151, 240, 0.5);
+}
+
+button:active {
+  background: #3897F0;
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.facebook-login img {
+  width: 24px;
+}
+
+.facebook-login a {
+  margin-top: 3px;
+}
+
+.facebook-login+div {
+  margin: 15px;
+}
+
+h1 {
+  margin: 25px;
 }
 
 .register-container {
-  border: 1px solid black;
+  border: 1px solid rgba(218, 188, 188, 0.5);
   text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.register-container a {
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .mobile-download-container {
@@ -26,17 +92,9 @@
 }
 
 .mobile-download-container a img {
-  width: 160px;
+  width: 134px;
 }
 
 .goto-appstore {
   margin: 10px;
-}
-
-h1 {
-  margin: 25px;
-}
-
-input {
-  width: 70%;
 }
