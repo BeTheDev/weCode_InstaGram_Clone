@@ -1,43 +1,82 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>instagram main</title>
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/b4ff51499b.js" crossorigin="anonymous"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>repl.it</title>
-  <link href="style/common.css" rel="stylesheet" type="text/css" />
-  <link href="style/main.css" rel="stylesheet" type="text/css" />
-  <script src="https://kit.fontawesome.com/b4ff51499b.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav>
-    <img src="./img/icons8-instagram-50.png" alt="">
-    <img src="./img/logo_text.png" alt="">
-    <i class="far fa-compass"></i>
-    <i class="far fa-heart"></i>
-    <i class="far fa-user"></i>
-  </nav>
-  <div>
-    <ul>
-      <li>story</li>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-    </ul>
-  </div>
-  <div>
-    <div>hello im title</div>
-    <img src="./img/insta.png" alt="">
-    <i class="far fa-heart"></i>
-    <img src="./img/—Pngtree—instagram icon set_3622864 message.jpg" alt="">
-    <img src="./img/—Pngtree—instagram icon set_3622864 share.jpg" alt="">
-    <img src="./img/bookmark.jpg" alt="">
-
-  </div>
-  <script src="js/main.js"></script>
-</body>
-
+  <body>
+    
+      <nav>
+        <div class="container">
+          <div>
+            <a href=""><img src="./img/icons8-instagram-50.png" alt=""/></a>
+          </div>
+          <span></span>
+          <a href=""><img src="./img/logo_text.png" alt="" class="logo"/></a>
+          <div class="navbar-rightside-links">
+            <a href=""><img src="./img/explore.png" alt=""/></a>
+            <a href=""><img src="./img/heart.png" alt=""/></a>
+            <a href=""><img src="./img/profile.png" alt=""/></a>
+          </div>
+        </div>
+      </nav>
+      <div class="story-container">
+        <div>
+          <ul>
+            <div class="story-feed">
+              <img src="./img/tree.jpg" alt="" />
+              <li>hello</li>
+            </div>
+            <div class="story-feed">
+              <img src="./img/tree.jpg" alt="" />
+              <li>hello</li>
+            </div>
+            <div class="story-feed">
+              <img src="./img/tree.jpg" alt="" />
+              <li>hello</li>
+            </div>
+            <div class="story-feed">
+              <img src="./img/profile1.jpg" alt="" />
+              <li>hello</li>
+            </div>
+            <div class="story-feed">
+              <img src="./img/profile1.jpg" alt="" />
+              <li>hello</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <section>
+        <div class="main-story-container">
+          <div class="main-story-title">
+            <img src="./img/profile1.jpg" alt="" />
+            <p>title</p>
+            <div class="main-story-title-more"><img src="./img/more.png" alt=""></div>
+          </div>
+          <div class="main-story-body">
+            <img src="./img/pizza.jpeg" alt="" />
+            <div class="main-story-footer">
+              <div class="main-story-footer_links">
+                <img src="./img/heart.png" alt="" />
+                <img src="./img/comment.png" alt="" />
+                <img src="./img/share.png" alt="" />
+              </div>
+              <div>
+                <img src="./img/bookmark.png" alt="" />
+              </div>
+            </div>
+            <div class="likes">
+              <p>좋아요 20개</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
 </html>
