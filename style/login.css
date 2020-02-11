@@ -41,11 +41,8 @@ button {
   border-radius: 6px;
   background: #fafafa;
   margin: 8px 40px;
-  background: rgba(56, 151, 240, 0.5);
-}
-
-button:active {
-  background: #3897f0;
+  background: #3797f0;
+  opacity: 0.5;
 }
 
 .facebook-login {
