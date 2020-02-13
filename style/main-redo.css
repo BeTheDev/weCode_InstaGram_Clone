@@ -152,6 +152,9 @@ img.logo {
 .text a {
   text-decoration: none;
 }
+.text span {
+  margin: 10px;
+}
 
 .comment {
   display: flex;
@@ -167,6 +170,7 @@ button {
   background: white;
   padding-left: 11px;
 }
+
 /**-------------------Main Contents End---------- */
 /**------------Story Feed---------------------- */
 
