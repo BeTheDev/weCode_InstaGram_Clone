@@ -33,16 +33,18 @@ input {
   border-radius: 6px;
   background: #fafafa;
   padding: 9px 0 7px 8px;
+  margin: 4px;
 }
 
 button {
-  width: 75%;
+  width: 74%;
   border: 1px solid;
   border-radius: 6px;
   background: #fafafa;
-  margin: 8px 40px;
+  margin: 10px 40px;
   background: #3797f0;
   opacity: 0.5;
+  padding: 9px 0 7px 8px;
 }
 
 .facebook-login {

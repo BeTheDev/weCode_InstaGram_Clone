@@ -183,9 +183,9 @@ button {
 }
 .story-feeds-title {
   display: flex;
-  margin: 0px 0px 12px 0px;
   background: #fafafa;
   width: 289px;
+  padding-bottom: 10px;
 }
 .story-feeds-title img {
   width: 50px;
@@ -203,18 +203,20 @@ button {
   background: #ffffff;
   border: 1px solid #dbdbdb;
 }
-
+.story-feeds-body span {
+  background: #ffffff;
+  padding-left: 425px;
+}
 .story-feeds-story {
   background: #ffffff;
   font-size: 14px;
 }
-.story-feeds-story-body {
-  background: #ffffff;
-}
+
 .story-feeds-story-container {
   background: #ffffff;
   color: grey;
 }
+
 ul.story-feeds-container > p:nth-child(1) {
   color: grey;
   display: inline-block;
@@ -233,6 +235,7 @@ ul.story-feeds-container p {
 }
 p.story-feeds-container {
   display: inline-block;
+  margin: 3px 8px;
 }
 
 li {
@@ -271,6 +274,11 @@ li p {
 ul.story__story-container > p:nth-child(1) {
   color: grey;
   display: inline-block;
+  margin: 3px 8px;
+  background: white;
+}
+.story__story-container span {
+  padding-left: 321px;
 }
 .follow {
   color: blue;

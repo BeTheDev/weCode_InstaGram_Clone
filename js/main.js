@@ -4,11 +4,13 @@ const postButton = document.querySelector("#comment-post");
 let commentData = "";
 
 comment.addEventListener("keydown", event => {
+  btn = document.querySelector("button").style.color = "blue";
   if (event.key === "Enter") {
     commentData = event.target.value;
     addPost();
     event.target.value = "";
   }
+  return btn;
 });
 
 postButton.addEventListener("click", () => {
