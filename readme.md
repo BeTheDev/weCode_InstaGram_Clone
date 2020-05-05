@@ -8,6 +8,8 @@
 
 ### Result:
 
+![Login](demo/westalogin.gif)
+
 ![Demo](demo/demo.gif)
 
 ### What I tried
