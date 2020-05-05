@@ -4,11 +4,11 @@
 
 1. learn DOM
 2. practice Css
-3. practice Javascript
+3. practice Javascript (Event Listener)
 
 ### Result:
 
-![Login](demo/westalogin.gif)
+![Login](demo/login.gif)
 
 ![Demo](demo/demo.gif)
 
