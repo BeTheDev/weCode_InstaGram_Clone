@@ -8,7 +8,7 @@
 
 ### Result:
 
-![Demo](https://images.velog.io/images/cyongchoi/post/40adb0a7-2655-4544-b0c9-b3e41914596d/ezgif.com-video-to-gif.gif)
+![DEMO]()
 
 ### What I tried
 
