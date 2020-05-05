@@ -2,9 +2,19 @@
 
 ## Goal
 
-1. learn DOM
-2. practice Css
-3. practice Javascript (Event Listener)
+- learn DOM
+
+  - document.getElementbyId
+  - document.querySelector
+
+- practice Css
+
+  - flex
+
+- practice Javascript (Event Listener)
+
+  - onClick()
+  - event.target.value
 
 ### Result:
 
